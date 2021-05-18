@@ -4,7 +4,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t sahil070197/docker-react -f DockerFile.dev .
+  - docker build -t sahil070197/docker-react -f Dockerfile.dev .
 
 
 script:
